@@ -2,12 +2,17 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
-
+  
   const routes = [
   {
     path: '/',
     name: 'Gallery',
     component: () => import(/* webpackChunkName: "about" */ '../views/Gallery.vue')
+  },
+  {
+    path: '/photo/:id',
+    name: 'Photo',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Photo.vue')
   },
   {
     path: '/about',

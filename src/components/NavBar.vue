@@ -11,18 +11,18 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <!-- <a class="nav-link" href="gallery">Gallery</a> -->
-              <router-link class="nav-link text-dark test" to="/">Gallery</router-link>
+              <router-link class="nav-link text-dark test" data-toggle="collapse" data-target=".navbar-collapse.show" to="/">Gallery</router-link>
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link" href="about" >About</a> -->
-              <router-link class="nav-link text-dark test" to="about">About Us</router-link>
+              <router-link class="nav-link text-dark test" data-toggle="collapse" data-target=".navbar-collapse.show" to="about">About</router-link>
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link" href="contact">Contact</a> -->
-              <router-link class="nav-link text-dark" to="contact">Contact</router-link>
+              <router-link class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" to="contact">Contact</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://www.instagram.com/txk.productionz/">Instagram</a>
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/txk.productionz/" >Instagram</a>
             </li>
           </ul>
         </div>
