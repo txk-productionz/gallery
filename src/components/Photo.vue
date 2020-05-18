@@ -6,8 +6,8 @@
     <h5 class="text-center" v-if="photo.products">{{ photo.products }}</h5>
     <h5 class="text-center" v-if="photo.credit">{{ photo.credit }}</h5>
     <div class="d-flex position-fixed res-width ">
-        <h1 class="ctlbtn bg-secondary mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
-        <h1 class="ctlbtn bg-secondary ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
+        <h1 class="ctlbtn mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
+        <h1 class="ctlbtn ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
     </div>
     <img class="w-100" :src="photoUrl(photo.filename)">
   </div>
@@ -55,7 +55,7 @@ export default {
 <style>
 
 .ctlbtn{
-  
+  background-color: #6c757d;
   opacity: 60%;
 }
 
