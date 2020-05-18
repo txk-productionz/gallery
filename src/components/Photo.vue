@@ -1,10 +1,10 @@
 <template>
   <div class="view res-width lightbox">
     <p class="text-center mx-auto exitbtn" @click.self="closeLightbox">&#8249;Back to Gallery&#8250;</p>
-    <h2 class="text-center" v-if="photo.caption">"{{ photo.caption }}"</h2>
-    <h5 class="text-center" v-if="photo.location">{{ photo.location }}</h5>
-    <h5 class="text-center" v-if="photo.products">{{ photo.products }}</h5>
-    <h5 class="text-center" v-if="photo.credit">{{ photo.credit }}</h5>
+    <h4 class="text-center" v-if="photo.caption">"{{ photo.caption }}"</h4>
+    <p class="text-center" v-if="photo.location">{{ photo.location }}</p>
+    <p class="text-center" v-if="photo.products">{{ photo.products }}</p>
+    <p class="text-center" v-if="photo.credit">{{ photo.credit }}</p>
     <div class="d-flex position-fixed res-width ">
         <h1 class="ctlbtn mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
         <h1 class="ctlbtn ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
