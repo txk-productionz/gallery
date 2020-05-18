@@ -56,7 +56,7 @@ export default {
 
 .ctlbtn{
   background-color: #6c757d;
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 1000px) {
