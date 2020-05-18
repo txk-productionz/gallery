@@ -1,14 +1,14 @@
 <template>
   <div class="view res-width lightbox">
-    <div class="d-flex">
-        <p class="ctlbtn text-center mr-auto" @click.self="prevLightbox">Previous Image</p>
-        <p class="ctlbtn text-center mx-auto" @click.self="closeLightbox">Close Image</p>
-        <p class="ctlbtn text-center ml-auto" @click.self="nextLightbox">Next Image</p>
+    <p class="text-center mx-auto exitbtn" @click.self="closeLightbox">&#8249;Back to Gallery&#8250;</p>
+    <h2 class="text-center" v-if="photo.caption">"{{ photo.caption }}"</h2>
+    <h5 class="text-center" v-if="photo.location">{{ photo.location }}</h5>
+    <h5 class="text-center" v-if="photo.products">{{ photo.products }}</h5>
+    <h5 class="text-center" v-if="photo.credit">{{ photo.credit }}</h5>
+    <div class="d-flex position-fixed res-width ">
+        <h1 class="ctlbtn bg-secondary mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
+        <h1 class="ctlbtn bg-secondary ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
     </div>
-    <h5 class="text-center" v-if="photo.caption">"{{ photo.caption }}"</h5>
-    <h6 class="text-center" v-if="photo.location">{{ photo.location }}</h6>
-    <h6 class="text-center" v-if="photo.products">{{ photo.products }}</h6>
-    <h6 class="text-center" v-if="photo.credit">{{ photo.credit }}</h6>
     <img class="w-100" :src="photoUrl(photo.filename)">
   </div>
 </template>
@@ -53,9 +53,30 @@ export default {
 </script>
 
 <style>
+
+.ctlbtn{
+  
+  opacity: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ctlbtn {
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .ctlbtn {
+    font-size: 10rem;
+  }
+}
+
 .ctlbtn:hover{
-  text-decoration: underline;
   cursor: pointer;
+}
+
+.exitbtn:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 

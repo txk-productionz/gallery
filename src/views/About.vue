@@ -11,7 +11,7 @@
       related to the fashion and technology industries. Our goal is to 
       capture all things that are beutifully engineered.
     </p>
-    <h4>Our Story: Two Brothers and a camera</h4>
+    <h4>Our Story: Two Brothers and a Camera</h4>
     <p>
     We are two brothers, Tyler and Kyle, and are based out of Hartford, Connecticut 
     in our parents basement. Both of us are college students studying engineering. Our 
