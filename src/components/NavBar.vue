@@ -14,12 +14,12 @@
               <router-link class="nav-link text-dark test" data-toggle="collapse" data-target=".navbar-collapse.show" to="/">Gallery</router-link>
             </li>
             <li class="nav-item">
-              <!-- <a class="nav-link" href="about" >About</a> -->
-              <router-link class="nav-link text-dark test" data-toggle="collapse" data-target=".navbar-collapse.show" to="about">About</router-link>
+              <a class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" @click.self="toAbout">About</a>
+              <!-- <router-link class="nav-link text-dark test" data-toggle="collapse" data-target=".navbar-collapse.show" to="about">About</router-link> -->
             </li>
             <li class="nav-item">
-              <!-- <a class="nav-link" href="contact">Contact</a> -->
-              <router-link class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" to="contact">Contact</router-link>
+              <a class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" @click.self="toContact">Contact</a>
+              <!-- <router-link class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" to="contact">Contact</router-link> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="https://www.instagram.com/txk.productionz/" >Instagram</a>
@@ -35,9 +35,22 @@ export default {
   name: 'NavBar',
   components: {
   },
+  methods: {
+    toAbout() {
+        this.$router.push('/about');
+    },
+    toContact() {
+        this.$router.push('/contact');
+    }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.nav-link{
+  cursor: pointer;
+}
+
 </style>
