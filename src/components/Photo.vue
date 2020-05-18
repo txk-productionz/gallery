@@ -1,9 +1,9 @@
 <template>
   <div class="view res-width lightbox">
     <div class="d-flex">
-        <p type="button" class="ctlbtn text-center mr-auto" @click.self="prevLightbox">Previous Image</p>
-        <p type="button" class="ctlbtn text-center mx-auto" @click.self="closeLightbox">Close Image</p>
-        <p type="button" class="ctlbtn text-center ml-auto" @click.self="nextLightbox">Next Image</p>
+        <p class="ctlbtn text-center mr-auto" @click.self="prevLightbox">Previous Image</p>
+        <p class="ctlbtn text-center mx-auto" @click.self="closeLightbox">Close Image</p>
+        <p class="ctlbtn text-center ml-auto" @click.self="nextLightbox">Next Image</p>
     </div>
     <h5 class="text-center" v-if="photo.caption">"{{ photo.caption }}"</h5>
     <h6 class="text-center" v-if="photo.location">{{ photo.location }}</h6>
@@ -53,7 +53,10 @@ export default {
 </script>
 
 <style>
-
+.ctlbtn:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 
 </style>
