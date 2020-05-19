@@ -45,11 +45,13 @@ export default {
   margin-right: auto;
   
 }
+/* For Mobile */
 @media only screen and (max-width: 600px) {
   .res-width {
     width: 90%;
   }
 }
+/* For Desktop */
 @media only screen and (min-width: 600px) {
   .res-width {
     width: 60%;

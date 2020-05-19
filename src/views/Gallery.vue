@@ -50,7 +50,9 @@ export default {
 	transition: .3s ease-in-out;
 }
 
+@media only screen and (min-width: 750px) {
 .thumbnail:hover {
   opacity: .65;
+}
 }
 </style>
