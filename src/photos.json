@@ -1,97 +1,92 @@
 [
     {
+        "id": 12,
+        "caption": "They say orange is the most visible color underwater.",
+        "products": "Omega Sea Master Planet Ocean Ref. 23230422101002",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "025.jpg"
+    },
+    {
         "id": 11,
         "caption": "The light of a thousand stars.",
         "products": "Seiko SARB035",
         "credit": "",
-        "filename": "024.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "024.jpg"
     },
     {
         "id": 10,
         "caption": "When the lights go down in the city.",
         "products": "Timex Marlin Automatic",
         "credit": "",
-        "filename": "023.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "023.jpg"
     },
     {
         "id": 9,
         "caption": "I'm blinded by the lights.",
         "products": "Seiko SKX009",
         "credit": "",
-        "filename": "017.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "017.jpg"
     },
     {
         "id": 8,
         "caption": "When it rains, it pours.",
         "products": "Uniqlo Blocktech Fishtail Parka and Casio DW5600BB",
         "credit": "",
-        "filename": "011.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "011.jpg"
     },
     {
         "id": 7,
         "caption": "Boys have swag. Men have style. Gentlemen have character.",
         "products": "Beckett Simonon Durant Oxfords",
         "credit": "",
-        "filename": "012.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "012.jpg"
     },
     {
         "id": 6,
         "caption": "Selectively social.",
         "products": "PSNY X Alpha Industies MA-1 and Seiko SKX009",
         "credit": "",
-        "filename": "009.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "009.jpg"
     },
     {
         "id": 5,
         "caption": "Watches?... Cars?... Watches on cars!",
         "products": "Lexus GS 350 F-Sport",
         "cedit": "",
-        "filename": "007.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "007.jpg"
     },
     {
         "id": 4,
         "caption": "Center tachs only!",
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
-        "filename": "008.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "008.jpg"
     },
     {
         "id": 3,
         "caption": "Gone, but not forgotten.",
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
-        "filename": "005.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "005.jpg"
     },
     {
         "id": 2,
         "caption": "He who breaks his wrist, does not break his G-Shock",
         "products": "Casio DW5600BB",
-        "filename": "006.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "006.jpg"
     },
     {
         "id": 1,
         "caption": "An American classic reborn",
         "products": "Timex Marlin Automatic",
         "credit": "",
-        "filename": "002.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "002.jpg"
     },
     {
         "id": 0,
         "caption": "From the depths of the ocean, to the depths of life.",
         "products": "Seiko SKX009",
         "credit": "",
-        "filename": "001.jpg",
-        "location": "Hartford, Connecticut"
+        "filename": "001.jpg"
     }
   ]
