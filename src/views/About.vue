@@ -20,9 +20,10 @@
     </p>
     <h4>Sponsorship</h4>
     <p>
-    Many of the watches shown are a courtasy of our sponsor who is a private watch collector.
-    If you are interested in sending products for us to shoot, feel free to contact us.
+    Many of the watches shown are a courtasy of our sponsor who is a private watch collector. 
+    This sponsorship allows us to feature a wide variety of watches from names such as Rolex, Seiko, Omega, and more.
     </p>
+    <p>If you are interested in sending products for us to shoot, feel free to contact us.</p>
   </div>
 
 </template>

@@ -4,7 +4,7 @@
         <p class="pb-3">Watches, cars, and more. Click to view full image.</p>
         <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
             <router-link :to="`/photo/${photo.id}`">
-                <img :src="thumbUrl(photo.filename)">
+                <img :src="thumbUrl(photo.filename)" class="thumbnail">
             </router-link>
         </div>
 
@@ -43,4 +43,14 @@ export default {
     object-fit: cover;
     padding-bottom: 2rem;
   }
+
+.thumbnail {
+  opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.thumbnail:hover {
+  opacity: .65;
+}
 </style>
