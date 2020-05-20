@@ -9,7 +9,7 @@
       high quality product photography. The main products we shoot
       include watches and cars. We also feature variety of other products
       related to the fashion and technology industries. Our goal is to 
-      capture all things that are beutifully engineered.
+      capture all things that are beautifully engineered.
     </p>
     <h4>Our Story: Two Brothers and a Camera</h4>
     <p>
@@ -20,7 +20,7 @@
     </p>
     <h4>Sponsorship</h4>
     <p>
-    Many of the watches shown are a courtasy of our sponsor who is a private watch collector. 
+    Many of the watches shown are a courtesy of our sponsor who is a private watch collector. 
     This sponsorship allows us to feature a wide variety of watches from names such as Rolex, Seiko, Omega, and more.
     </p>
     <p>If you are interested in sending products for us to shoot, feel free to contact us.</p>
