@@ -1,5 +1,12 @@
 [
     {
+        "id": 13,
+        "caption": "Keep your face to the sun and you will never see the shadows.",
+        "products": "Seiko x LOWERCASE Prospex Fieldmaster SBEP011",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "026.jpg"
+    },
+    {
         "id": 12,
         "caption": "They say orange is the most visible color underwater.",
         "products": "Omega Seamaster Planet Ocean Ref. 23230422101002",
@@ -37,7 +44,7 @@
     {
         "id": 7,
         "caption": "Boys have swag. Men have style. Gentlemen have character.",
-        "products": "Beckett Simonon Durant Oxfords",
+        "products": "Beckett Simonon Durant Oxfords, Timex Marlin Automatic, and Tie Bar Palm Trees",
         "credit": "",
         "filename": "012.jpg"
     },
