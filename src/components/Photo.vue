@@ -2,7 +2,7 @@
   <div class="view res-width lightbox">
     <p class="exitbtn mr-auto" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
     <h5 class="text-center border-top border-bottom py-3" v-if="photo.caption">"{{ photo.caption }}"</h5>
-    <p class="text-center mb-1" v-if="photo.date">Posted {{ photo.date }}</p>
+    <p class="text-center mb-1" v-if="photo.date">Posted on {{ photo.date }}</p>
     <p class="text-center mb-1" v-if="photo.products">{{ photo.products }}</p>
     <p class="text-center mb-1" v-if="photo.credit">{{ photo.credit }}</p>
     <div class="d-flex position-fixed res-width">
