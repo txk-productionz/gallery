@@ -1,9 +1,10 @@
 <template>
   <div class="view res-width lightbox">
-    <p class="mx-auto exitbtn" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
+    <p class="exitbtn mr-auto" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
     <h5 class="text-center border-top border-bottom py-3" v-if="photo.caption">"{{ photo.caption }}"</h5>
-    <p class="text-center" v-if="photo.products">{{ photo.products }}</p>
-    <p class="text-center" v-if="photo.credit">{{ photo.credit }}</p>
+    <p class="text-center mb-1" v-if="photo.date">Posted {{ photo.date }}</p>
+    <p class="text-center mb-1" v-if="photo.products">{{ photo.products }}</p>
+    <p class="text-center mb-1" v-if="photo.credit">{{ photo.credit }}</p>
     <div class="d-flex position-fixed res-width">
         <h1 class="ctlbtn mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
         <h1 class="ctlbtn ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
@@ -37,7 +38,7 @@ export default {
     },
     prevLightbox() {
         var nextid=this.photo.id+1
-        if (this.photo.id < 13) {    //<---Number should be one less than the number of images
+        if (this.photo.id < 14) {    //<---Number should be one less than the number of images
             this.$router.push('/photo/' + nextid)
         } 
     },

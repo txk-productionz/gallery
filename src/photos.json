@@ -1,7 +1,16 @@
 [
     {
+        "id": 14,
+        "caption": "Time is an ocean, but it ends at the shore.",
+        "date": "Saturday, May 23, 2020",
+        "products": "Omega Seamaster Planet Ocean Ref. 2200.51.00",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "032.jpg"
+    },
+    {
         "id": 13,
         "caption": "Keep your face to the sun and you will never see the shadows.",
+        "date": "Thursay, May 21, 2020",
         "products": "Seiko x LOWERCASE Prospex Fieldmaster SBEP011",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "026.jpg"
@@ -9,13 +18,15 @@
     {
         "id": 12,
         "caption": "They say orange is the most visible color underwater.",
-        "products": "Omega Seamaster Planet Ocean Ref. 23230422101002",
+        "date": "Tuesday, May 19, 2020",
+        "products": "Omega Seamaster Planet Ocean Ref. 232.30.42.21.01.002",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "025.jpg"
     },
     {
         "id": 11,
         "caption": "The light of a thousand stars.",
+        "date": "Saturday, May 16, 2020",
         "products": "Seiko SARB035",
         "credit": "",
         "filename": "024.jpg"
@@ -23,6 +34,7 @@
     {
         "id": 10,
         "caption": "When the lights go down in the city.",
+        "date": "Thursday, May 14, 2020",
         "products": "Timex Marlin Automatic",
         "credit": "",
         "filename": "023.jpg"
@@ -30,6 +42,7 @@
     {
         "id": 9,
         "caption": "I'm blinded by the lights.",
+        "date": "Tuesday, May 12, 2020",
         "products": "Seiko SKX009",
         "credit": "",
         "filename": "017.jpg"
@@ -37,6 +50,7 @@
     {
         "id": 8,
         "caption": "When it rains, it pours.",
+        "date": "Saturday, May 9, 2020",
         "products": "Uniqlo Blocktech Fishtail Parka and Casio DW5600BB",
         "credit": "",
         "filename": "011.jpg"
@@ -44,6 +58,7 @@
     {
         "id": 7,
         "caption": "Boys have swag. Men have style. Gentlemen have character.",
+        "date": "Thursday, May 7, 2020",
         "products": "Beckett Simonon Durant Oxfords, Timex Marlin Automatic, and Tie Bar Palm Trees",
         "credit": "",
         "filename": "012.jpg"
@@ -51,6 +66,7 @@
     {
         "id": 6,
         "caption": "Selectively social.",
+        "date": "Tuesday, May 5, 2020",
         "products": "PSNY X Alpha Industies MA-1 and Seiko SKX009",
         "credit": "",
         "filename": "009.jpg"
@@ -58,6 +74,7 @@
     {
         "id": 5,
         "caption": "Watches?... Cars?... Watches on cars!",
+        "date": "Sunday, May 3, 2020",
         "products": "Lexus GS 350 F-Sport",
         "cedit": "",
         "filename": "007.jpg"
@@ -65,6 +82,7 @@
     {
         "id": 4,
         "caption": "Center tachs only!",
+        "date": "Saturday, May 2, 2020",
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
         "filename": "008.jpg"
@@ -72,6 +90,7 @@
     {
         "id": 3,
         "caption": "Gone, but not forgotten.",
+        "date": "Friday, May 1, 2020",
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
         "filename": "005.jpg"
@@ -79,12 +98,15 @@
     {
         "id": 2,
         "caption": "He who breaks his wrist, does not break his G-Shock",
+        "date": "Wednesday, April 29, 2020",
         "products": "Casio DW5600BB",
+        "credit": "",
         "filename": "006.jpg"
     },
     {
         "id": 1,
         "caption": "An American classic reborn",
+        "date": "Monday, May 27, 2020",
         "products": "Timex Marlin Automatic",
         "credit": "",
         "filename": "002.jpg"
@@ -92,6 +114,7 @@
     {
         "id": 0,
         "caption": "From the depths of the ocean, to the depths of life.",
+        "date": "Saturday, May 25, 2020",
         "products": "Seiko SKX009",
         "credit": "",
         "filename": "001.jpg"
