@@ -1,6 +1,6 @@
 <template>
     <div class="res-width view">
-        <h3>Gallery</h3>
+        <h3 class="mb-3">Gallery</h3>
         <p class="pb-3">Watches, cars, and more. Click to view full image.</p>
         <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
             <router-link :to="`/photo/${photo.id}`">
