@@ -1,5 +1,14 @@
 [
     {
+        "id": 15,
+        "caption": "Don't reinvent the wheel.",
+        "location": "Hartford, Connecticut",
+        "date": "May 26, 2020",
+        "products": "Lexus GS 350 F Sport",
+        "credit": "",
+        "filename": "028.jpg"
+    },
+    {
         "id": 14,
         "caption": "Time is an ocean, but it ends at the shore.",
         "location": "Hartford, Connecticut",
