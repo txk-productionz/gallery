@@ -62,6 +62,8 @@ export default {
 .ctlbtn{
   background-color: #6c757d;
   opacity: 0.6;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -77,6 +79,12 @@ export default {
 
 .ctlbtn:hover{
   cursor: pointer;
+}
+
+@media only screen and (min-width: 750px) {
+.ctlbtn:hover {
+  opacity: .5;
+}
 }
 
 .exitbtn:hover{
