@@ -1,20 +1,19 @@
 <template>
   <div class="view res-width lightbox">
-    <p class="exitbtn mr-auto" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
-    <div class="mb-3">
-      <h5 class="text-center border-top border-bottom py-3" v-if="photo.caption">"{{ photo.caption }}"</h5>
-      <p class="text-center mb-1" v-if="photo.products">{{ photo.products }}</p>
-      <p class="text-center mb-1" v-if="photo.credit">{{ photo.credit }}</p>
-    </div>
-    <div class="d-flex position-fixed res-width">
+    <p class="exitbtn mr-auto mb-3 pt-2" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
+    <div class="d-flex position-fixed res-width mt-5">
         <h1 class="ctlbtn mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
         <h1 class="ctlbtn ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
     </div>
     <img class="w-100" :src="photoUrl(photo.filename)">
-    <div class="d-flex mt-2">
-        <p class="mr-auto" v-if="photo.location">{{ photo.location }}</p>
-        <p class="ml-auto" v-if="photo.date">{{ photo.date }}</p>
+    <div class="meta d-flex mt-3 font-weight-light">
+        <p class="mr-auto py-0" v-if="photo.location">{{ photo.location }}</p>
+        <p class="ml-auto py-0" v-if="photo.date">{{ photo.date }}</p>
     </div>
+    <p class="caption my-0 pt-0 pb-2 font-weight-bold" v-if="photo.caption">"{{ photo.caption }}"</p>
+    <p class="border-top my-0 py-2" v-if="photo.products">{{ photo.products }}</p>
+    <p class="border-top my-0 py-2" v-if="photo.credit">{{ photo.credit }}</p>
+    <p class="meta id font-weight-light text-center" v-if="photo.id">{{ photo.id }}</p>
   </div>
 </template>
 
@@ -58,6 +57,17 @@ export default {
 </script>
 
 <style>
+.id{
+  margin-top: 4rem;
+}
+
+.meta{
+  font-size: 0.8rem;
+}
+
+.caption{
+  font-size: 1.25rem;
+}
 
 .ctlbtn{
   background-color: #6c757d;

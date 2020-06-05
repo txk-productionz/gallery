@@ -1,10 +1,19 @@
 [
     {
+        "id": 19,
+        "caption": "Reflections can be deceiving.",
+        "location": "Hartford, Connecticut",
+        "date": "June 5, 2020",
+        "products": "Pharrell x NMD Human Race 'Inspiration Pack'",
+        "credit": "This sneaker is a courtesy of a friend of TXK Productionz.",
+        "filename": "034.jpg"
+    },
+    {
         "id": 18,
         "caption": "I make shoe contact before I make eye contact.",
         "location": "Hartford, Connecticut",
         "date": "June 2, 2020",
-        "products": "Adidas Pharrell Williams Human Race NMD Holi Festival",
+        "products": "Pharrell x NMD Human Race Trail 'Holi Festival'",
         "credit": "This sneaker is a courtesy of a friend of TXK Productionz.",
         "filename": "035.jpg"
     },
