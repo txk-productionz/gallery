@@ -13,7 +13,7 @@
     <p class="caption my-0 pt-0 pb-2 font-weight-bold" v-if="photo.caption">"{{ photo.caption }}"</p>
     <p class="border-top my-0 py-2" v-if="photo.products">{{ photo.products }}</p>
     <p class="border-top my-0 py-2" v-if="photo.credit">{{ photo.credit }}</p>
-    <p class="meta id font-weight-light text-center" v-if="photo.id">{{ photo.id }}</p>
+    <p class="meta postnum font-weight-light text-center" v-if="photo.post">{{ photo.post }}</p>
   </div>
 </template>
 
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style>
-.id{
+.postnum{
   margin-top: 4rem;
 }
 
