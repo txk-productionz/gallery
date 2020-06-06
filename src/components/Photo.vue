@@ -1,11 +1,16 @@
 <template>
   <div class="view res-width lightbox">
     <p class="exitbtn mr-auto mb-3 pt-2" @click.self="closeLightbox">&#8249;&#8249; Back to Gallery</p>
-    <div class="d-flex position-fixed res-width mt-5">
+    <div class="ctlcont d-flex position-fixed res-width mt-5">
         <h1 class="ctlbtn mr-auto px-3 text-dark" @click.self="prevLightbox">&#8249;</h1>
         <h1 class="ctlbtn ml-auto px-3 text-dark" @click.self="nextLightbox">&#8250;</h1>
     </div>
-    <img class="w-100" :src="photoUrl(photo.filename)">
+    <v-lazy-image class="w-100" :src="photoUrl(photo.filename)"
+    :src-placeholder="thumbnailUrl(photo.thumbnail)"/>
+
+
+
+    <!-- <img class="w-100" :src="photoUrl(photo.filename)"> -->
     <div class="meta d-flex mt-3 font-weight-light">
         <p class="mr-auto py-0" v-if="photo.location">{{ photo.location }}</p>
         <p class="ml-auto py-0" v-if="photo.date">{{ photo.date }}</p>
@@ -19,12 +24,16 @@
 
 <script>
 import photos from '@/photos.json';
+import VLazyImage from "v-lazy-image";
 export default {
   name: 'Photo',
   data() {
     return {
       photos,
     };
+  },
+  components: {
+    VLazyImage
   },
   computed: {
     photo() {
@@ -36,6 +45,9 @@ export default {
   methods: {
     photoUrl(filename) {
         return require(`../assets/images/fullimg/${filename}`);
+    },
+    thumbnailUrl(thumbnail) {
+        return require(`../assets/images/thumbnail/${thumbnail}`);
     },
     closeLightbox() {
         this.$router.push('/');
@@ -57,6 +69,16 @@ export default {
 </script>
 
 <style>
+.v-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+  z-index: -1;
+}
+.v-lazy-image-loaded {
+  filter: blur(0);
+
+}
+
 .postnum{
   margin-top: 4rem;
 }
@@ -69,11 +91,16 @@ export default {
   font-size: 1.25rem;
 }
 
+.ctlcont{
+  z-index: 1000;
+}
+
 .ctlbtn{
   background-color: #6c757d;
   opacity: 0.6;
   -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  
 }
 
 @media only screen and (max-width: 1000px) {
