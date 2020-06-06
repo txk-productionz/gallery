@@ -17,11 +17,21 @@
     with our friends so TXK Productionz was created in April 2020.
     </p>
     <h4>Sponsorships</h4>
-    <p class="mb-4">
+    <p class="mb-3">
     Many of the watches shown are a courtesy of our sponsor who is a private watch collector. 
     This sponsorship allows us to feature a wide variety of watches from names such as Rolex, Seiko, Omega, and more.
     </p>
-    <p>If you are interested in sending products for us to shoot, feel free to contact us.</p>
+    <p class="mb-4">If you are interested in sending products for us to shoot, feel free to contact us.</p>
+    <h4>Social Media</h4>
+    <p class="mb-3">
+    We post all our main posts to our <a class="font-weight-normal" target="_blank" href="https://www.instagram.com/txk.productionz"><u>Instagram</u></a>. Updates and behind the scenes are posted on our story.
+    </p>
+    <p class="mb-3">
+    We also post budget photography tutorials on our <a class="font-weight-normal" target="_blank" href="https://www.tiktok.com/@txk.productionz"><u>TikTok</u></a>.
+    </p>
+    <p class="mb-4">
+    Go follow us on both platforms "@txk.productionz".
+    </p>
   </div>
 
 </template>

@@ -22,7 +22,10 @@
               <!-- <router-link class="nav-link text-dark" data-toggle="collapse" data-target=".navbar-collapse.show" to="contact">Contact</router-link> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://www.instagram.com/txk.productionz/" >Instagram</a>
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/txk.productionz/">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.tiktok.com/@txk.productionz/">TikTok</a>
             </li>
           </ul>
         </div>

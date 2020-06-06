@@ -4,7 +4,7 @@
         <p class="pb-3">Watches, cars, and more. Click to view full image.</p>
         <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
             <router-link :to="`/photo/${photo.id}`">
-                <img :src="thumbUrl(photo.filename)" class="thumbnail">
+                <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
             </router-link>
         </div>
 
@@ -21,8 +21,8 @@ export default {
     };
   },
   methods: {
-    thumbUrl(filename) {
-      return require(`../assets/images/${filename}`);
+    thumbUrl(thumbnail) {
+      return require(`../assets/images/thumbnail/${thumbnail}`);
     },
   },
 };

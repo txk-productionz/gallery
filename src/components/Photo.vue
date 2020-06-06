@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     photoUrl(filename) {
-        return require(`../assets/images/${filename}`);
+        return require(`../assets/images/fullimg/${filename}`);
     },
     closeLightbox() {
         this.$router.push('/');

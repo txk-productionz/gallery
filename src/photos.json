@@ -7,6 +7,7 @@
         "products": "Pharrell x NMD Human Race 'Inspiration Pack'",
         "credit": "This sneaker is a courtesy of a friend of TXK Productionz.",
         "filename": "034.jpg",
+        "thumbnail": "034 Resized.jpg",
         "post": "20"
     },
     {
@@ -17,6 +18,7 @@
         "products": "Pharrell x NMD Human Race Trail 'Holi Festival'",
         "credit": "This sneaker is a courtesy of a friend of TXK Productionz.",
         "filename": "035.jpg",
+        "thumbnail": "035 Resized.jpg",
         "post": "19"
     },
     {
@@ -27,6 +29,7 @@
         "products": "Lexus GS 350 F Sport",
         "credit": "",
         "filename": "030.jpg",
+        "thumbnail": "030 Resized.jpg",
         "post": "18"
     },
     {
@@ -37,6 +40,7 @@
         "products": "Lexus GS 350 F Sport",
         "credit": "",
         "filename": "033.jpg",
+        "thumbnail": "033 Resized.jpg",
         "post": "17"
     },
     {
@@ -47,6 +51,7 @@
         "products": "Lexus GS 350 F Sport",
         "credit": "",
         "filename": "028.jpg",
+        "thumbnail": "028 Resized.jpg",
         "post": "16"
     },
     {
@@ -57,6 +62,7 @@
         "products": "Omega Seamaster Planet Ocean Ref. 2200.51.00",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "032.jpg",
+        "thumbnail": "032 Resized.jpg",
         "post": "15"
     },
     {
@@ -67,6 +73,7 @@
         "products": "Seiko x LOWERCASE Prospex Fieldmaster SBEP011",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "026.jpg",
+        "thumbnail": "026 Resized.jpg",
         "post": "14"
     },
     {
@@ -77,6 +84,7 @@
         "products": "Omega Seamaster Planet Ocean Ref. 232.30.42.21.01.002",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "025.jpg",
+        "thumbnail": "025 Resized.jpg",
         "post": "13"
     },
     {
@@ -87,6 +95,7 @@
         "products": "Seiko SARB035",
         "credit": "",
         "filename": "024.jpg",
+        "thumbnail": "024 Resized.jpg",
         "post": "12"
     },
     {
@@ -97,6 +106,7 @@
         "products": "Timex Marlin Automatic",
         "credit": "",
         "filename": "023.jpg",
+        "thumbnail": "023 Resized.jpg",
         "post": "11"
     },
     {
@@ -107,6 +117,7 @@
         "products": "Seiko SKX009",
         "credit": "",
         "filename": "017.jpg",
+        "thumbnail": "017 Resized.jpg",
         "post": "10"
     },
     {
@@ -117,6 +128,7 @@
         "products": "Uniqlo Blocktech Fishtail Parka and Casio DW5600BB",
         "credit": "",
         "filename": "011.jpg",
+        "thumbnail": "011 Resized.jpg",
         "post": "9"
     },
     {
@@ -127,6 +139,7 @@
         "products": "Beckett Simonon Durant Oxfords, Timex Marlin Automatic, and Tie Bar Palm Trees",
         "credit": "",
         "filename": "012.jpg",
+        "thumbnail": "012 Resized.jpg",
         "post": "8"
     },
     {
@@ -137,6 +150,7 @@
         "products": "PSNY X Alpha Industies MA-1 and Seiko SKX009",
         "credit": "",
         "filename": "009.jpg",
+        "thumbnail": "009 Resized.jpg",
         "post": "7"
     },
     {
@@ -147,6 +161,7 @@
         "products": "Lexus GS 350 F-Sport",
         "cedit": "",
         "filename": "007.jpg",
+        "thumbnail": "007 Resized.jpg",
         "post": "6"
     },
     {
@@ -157,6 +172,7 @@
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
         "filename": "008.jpg",
+        "thumbnail": "008 Resized.jpg",
         "post": "5"
     },
     {
@@ -167,6 +183,7 @@
         "products": "Lexus GS 350 F-Sport",
         "credit": "",
         "filename": "005.jpg",
+        "thumbnail": "005 Resized.jpg",
         "post": "4"
     },
     {
@@ -177,6 +194,7 @@
         "products": "Casio DW5600BB",
         "credit": "",
         "filename": "006.jpg",
+        "thumbnail": "006 Resized.jpg",
         "post": "3"
     },
     {
@@ -187,6 +205,7 @@
         "products": "Timex Marlin Automatic",
         "credit": "",
         "filename": "002.jpg",
+        "thumbnail": "002 Resized.jpg",
         "post": "2"
     },
     {
@@ -197,6 +216,7 @@
         "products": "Seiko SKX009",
         "credit": "",
         "filename": "001.jpg",
+        "thumbnail": "001 Resized.jpg",
         "post": "1"
     }
   ]
