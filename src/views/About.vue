@@ -27,7 +27,7 @@
     We post all our main posts to our <a class="font-weight-normal" target="_blank" href="https://www.instagram.com/txk.productionz"><u>Instagram</u></a>. Updates and behind the scenes are posted on our story.
     </p>
     <p class="mb-3">
-    We also post budget photography tutorials on our <a class="font-weight-normal" target="_blank" href="https://www.tiktok.com/@txk.productionz"><u>TikTok</u></a>.
+    We also post photography tutorials and behind the scenes on our <a class="font-weight-normal" target="_blank" href="https://www.tiktok.com/@txk.productionz"><u>TikTok</u></a>.
     </p>
     <p class="mb-4">
     Go follow us on both platforms "@txk.productionz".
