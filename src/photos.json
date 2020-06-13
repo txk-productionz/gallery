@@ -1,10 +1,21 @@
 [
     {
+        "id": 23,
+        "caption": "Cheers.",
+        "location": "Hartford, Connecticut",
+        "date": "June 13, 2020",
+        "products": "Orient 'President' EV0J002C",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "039.jpg",
+        "thumbnail": "039 Resized.jpg",
+        "post": "24"
+    },
+    {
         "id": 22,
         "caption": "Cheers.",
         "location": "Hartford, Connecticut",
         "date": "June 11, 2020",
-        "products": "Tissot Ballade III T97148351",
+        "products": "Tissot T-Classic Ballade III T97148351",
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "038.jpg",
         "thumbnail": "038 Resized.jpg",
