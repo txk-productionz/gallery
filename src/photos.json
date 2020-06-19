@@ -1,7 +1,29 @@
 [
     {
+        "id": 26,
+        "caption": "If you don't look back at your car after you parked it, you own the wrong car.",
+        "location": "Hartford, Connecticut",
+        "date": "June 19, 2020",
+        "products": "Infiniti M35",
+        "credit": "",
+        "filename": "042.jpg",
+        "thumbnail": "042 Resized.jpg",
+        "post": "26"
+    },
+    {
+        "id": 25,
+        "caption": "Is water wet?",
+        "location": "Hartford, Connecticut",
+        "date": "June 18, 2020",
+        "products": "Infiniti M35",
+        "credit": "",
+        "filename": "045.jpg",
+        "thumbnail": "045 Resized.jpg",
+        "post": "25"
+    },
+    {
         "id": 24,
-        "caption": "Just because you know how I ride, doesn't mean you know me",
+        "caption": "Just because you know how I ride, doesn't mean you know me.",
         "location": "Hartford, Connecticut",
         "date": "June 16, 2020",
         "products": "Infiniti M35",
