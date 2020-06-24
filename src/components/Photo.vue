@@ -54,7 +54,7 @@ export default {
     },
     prevLightbox() {
         var nextid=this.photo.id+1
-        if (this.photo.id < 30) {    //<---Number should be one less than the final id
+        if (this.photo.id < 31) {    //<---Number should be one less than the final id
             this.$router.push('/photo/' + nextid)
         } 
     },
