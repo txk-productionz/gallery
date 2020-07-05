@@ -15,6 +15,26 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/Photo.vue')
   },
   {
+    path: '/watches',
+    name: 'Watches',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Watches.vue')
+  },
+  {
+    path: '/watches/watch/:id',
+    name: 'Watch',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Watch.vue')
+  },
+  {
+    path: '/cars',
+    name: 'Cars',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Cars.vue')
+  },
+  {
+    path: '/cars/car/:id',
+    name: 'Car',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Car.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')

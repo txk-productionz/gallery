@@ -1,0 +1,134 @@
+[
+    {
+        "id": 11,
+        "caption": "Cheers.",
+        "location": "Hartford, Connecticut",
+        "date": "June 13, 2020",
+        "products": "Orient 'President' EV0J002C",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "039.jpg",
+        "thumbnail": "039 Resized.jpg",
+        "post": "12"
+    },
+    {
+        "id": 10,
+        "caption": "Cheers.",
+        "location": "Hartford, Connecticut",
+        "date": "June 11, 2020",
+        "products": "Tissot T-Classic Ballade III T97148351",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "038.jpg",
+        "thumbnail": "038 Resized.jpg",
+        "post": "11"
+    },
+    {
+        "id": 9,
+        "caption": "The only reason for time is so that everything doesn't happen at once.",
+        "location": "Hartford, Connecticut",
+        "date": "June 9, 2020",
+        "products": "Orient 'President' EV0J002B",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "037.jpg",
+        "thumbnail": "037 Resized.jpg",
+        "post": "10"
+    },
+    {
+        "id": 8,
+        "caption": "Time is an ocean, but it ends at the shore.",
+        "location": "Hartford, Connecticut",
+        "date": "May 23, 2020",
+        "products": "Omega Seamaster Planet Ocean Ref. 2200.51.00",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "032.jpg",
+        "thumbnail": "032 Resized.jpg",
+        "post": "9"
+    },
+    {
+        "id": 7,
+        "caption": "Keep your face to the sun and you will never see the shadows.",
+        "location": "Hartford, Connecticut",
+        "date": "May 21, 2020",
+        "products": "Seiko x LOWERCASE Prospex Fieldmaster SBEP011",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "026.jpg",
+        "thumbnail": "026 Resized.jpg",
+        "post": "8"
+    },
+    {
+        "id": 6,
+        "caption": "They say orange is the most visible color underwater.",
+        "location": "Hartford, Connecticut",
+        "date": "May 19, 2020",
+        "products": "Omega Seamaster Planet Ocean Ref. 232.30.42.21.01.002",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "025.jpg",
+        "thumbnail": "025 Resized.jpg",
+        "post": "7"
+    },
+    {
+        "id": 5,
+        "caption": "The light of a thousand stars.",
+        "location": "Hartford, Connecticut",
+        "date": "May 16, 2020",
+        "products": "Seiko SARB035",
+        "credit": "",
+        "filename": "024.jpg",
+        "thumbnail": "024 Resized.jpg",
+        "post": "6"
+    },
+    {
+        "id": 4,
+        "caption": "When the lights go down in the city.",
+        "location": "Hartford, Connecticut",
+        "date": "May 14, 2020",
+        "products": "Timex Marlin Automatic",
+        "credit": "",
+        "filename": "023.jpg",
+        "thumbnail": "023 Resized.jpg",
+        "post": "5"
+    },
+    {
+        "id": 3,
+        "caption": "I'm blinded by the lights.",
+        "location": "Hartford, Connecticut",
+        "date": "May 12, 2020",
+        "products": "Seiko SKX009",
+        "credit": "",
+        "filename": "017.jpg",
+        "thumbnail": "017 Resized.jpg",
+        "post": "4"
+    },
+    {
+        "id": 2,
+        "caption": "He who breaks his wrist, does not break his G-Shock",
+        "location": "Hartford, Connecticut",
+        "date": "April 29, 2020",
+        "products": "Casio DW5600BB",
+        "credit": "",
+        "filename": "006.jpg",
+        "thumbnail": "006 Resized.jpg",
+        "post": "3"
+    },
+    {
+        "id": 1,
+        "caption": "An American classic reborn",
+        "location": "Hartford, Connecticut",
+        "date": "May 27, 2020",
+        "products": "Timex Marlin Automatic",
+        "credit": "",
+        "filename": "002.jpg",
+        "thumbnail": "002 Resized.jpg",
+        "post": "2"
+    },
+    {
+        "id": 0,
+        "caption": "From the depths of the ocean, to the depths of life.",
+        "location": "Hartford, Connecticut",
+        "date": "May 25, 2020",
+        "products": "Seiko SKX009",
+        "credit": "",
+        "filename": "001.jpg",
+        "thumbnail": "001 Resized.jpg",
+        "post": "1"
+    }
+  ]

@@ -1,13 +1,10 @@
 <template>
   <div class="res-width view">
     <h3 class="mb-4">About Us</h3>
-    <h4>The Goal: Product Photography</h4>
+    <h4>Our mission</h4>
     <p class="mb-4">
-      We are dedicated to producing
-      high quality product photography. The main products we shoot
-      include watches and cars. We also feature variety of other products
-      related to the fashion and technology industries. Our goal is to 
-      capture all things that are beautifully engineered.
+      We are dedicated to producing high quality photography. Our work ranges from
+      product to portrait photography.
     </p>
     <h4>Our Story: Two Brothers and a Camera</h4>
     <p class="mb-4">
@@ -22,6 +19,11 @@
     This sponsorship allows us to feature a wide variety of watches from names such as Rolex, Seiko, Omega, and more.
     </p>
     <p class="mb-4">If you are interested in sending products for us to shoot, feel free to contact us.</p>
+    <h4>Clients</h4>
+    <p class="mb-3">
+    For our clients we can provide a variety of photography services. These range from product promotions to professional headshots.
+    </p>
+    <p class="mb-4">If you are interested in our services, feel free to contact us.</p>
     <h4>Social Media</h4>
     <p class="mb-3">
     We post all our main posts to our <a class="font-weight-normal" target="_blank" href="https://www.instagram.com/txk.productionz"><u>Instagram</u></a>. Updates and behind the scenes are posted on our story.
