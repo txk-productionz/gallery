@@ -26,16 +26,17 @@
           </div>
           </router-link>
         </div>
-        <div class="w-full text-center">
-          <h3 class="mb-2">All Photos</h3>
-          <p class="pb-2">Click to view full image.</p>
+        <div class="w-full text-center mb-2">
+          <h1 class="mb-2 header">ALL PHOTOS</h1>
+          <p class="mb-1">Click to view full image.</p>
         </div>
-        <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
-            <router-link :to="`/photo/${photo.id}`">
-                <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
-            </router-link>
+        <div class="w-full">
+          <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
+              <router-link :to="`/photo/${photo.id}`">
+                  <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
+              </router-link>
+          </div>
         </div>
-
     </div>
 </template>
 
@@ -57,6 +58,11 @@ export default {
 </script>
 
 <style>
+.header {
+  font-weight: bold;
+  color: black;
+}
+
 .categories {
   margin-top: 8rem;
 }
@@ -74,24 +80,27 @@ export default {
   transform: translate(-50%, -50%);
   font-weight: bold;
   z-index: 1;
+
 }
 
 
 .cat-panel img {
   width: 100%;
-  height: 30vh;
   object-fit: cover;
   padding-bottom: 2rem;
   filter: brightness(0.75);
 }
 
+.gallery-panel {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: 1.66%;
+}
 
 .gallery-panel img {
-  width: 100%;
-  height: 45vh;
+  width:100%;
   object-fit: cover;
-  padding-bottom: 2rem;
-  
 }
 
 .thumbnail {
@@ -119,6 +128,21 @@ export default {
 .category{
   font-size: 7rem;
 }
+
+.header{
+  font-size: 7rem;
 }
+.cat-panel img {
+    height: 30vh;
+  }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 1175px) {
+.cat-panel img {
+    height: 20vh;
+  }  
+}
+
 
 </style>

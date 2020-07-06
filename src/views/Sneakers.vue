@@ -1,9 +1,10 @@
 <template>
     <div class="res-width view">
-      <p class="exitbtn mr-auto mb-3 pt-2" @click.self="back">&#8249;&#8249; Back to Gallery</p>    
-          <h3 class="mb-2">Sneakers</h3>
-          <p class="pb-2">Everything from Yeezys to Oxfords. Click to view full image.</p>
-        
+      <div class="w-full text-center mb-2">  
+        <p class="exitbtn mr-auto mb-3 pt-2" @click.self="back">&#8249;&#8249; Back to Gallery &#8250;&#8250;</p>
+        <h3 class="mb-2 header">SNEAKERS</h3>
+        <p class="mb-1">Everything from Yeezys to Oxfords.</p>
+        <p class="mb-1">Click to view full image.</p>        </div>
         <div class="gallery-panel" v-for="sneaker in sneakers" :key="sneaker.id">
             <router-link :to="`/sneakers/sneaker/${sneaker.id}`">
                 <img :src="thumbUrl(sneaker.thumbnail)" class="thumbnail">
@@ -33,14 +34,26 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.header {
+  font-weight: bold;
+  color: black;
+}
+
+.exitbtn:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.gallery-panel {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: 1.66%;
+}
 
 .gallery-panel img {
-  width: 100%;
-  height: 45vh;
+  width:100%;
   object-fit: cover;
-  padding-bottom: 2rem;
-  
 }
 
 .thumbnail {
@@ -49,16 +62,14 @@ export default {
 	transition: .3s ease-in-out;
 }
 
-.exitbtn:hover{
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 /* for da big screens */
 @media only screen and (min-width: 750px) {
 .thumbnail:hover {
   opacity: .65;
-}
 
+}
+.header{
+  font-size: 7rem;
+}
 }
 </style>
