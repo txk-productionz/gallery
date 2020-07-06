@@ -27,7 +27,7 @@
 import cars from '@/cars.json';
 import VLazyImage from "v-lazy-image";
 export default {
-  name: 'Car',
+  name: 'Car Lightbox',
   data() {
     return {
       cars,

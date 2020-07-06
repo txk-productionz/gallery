@@ -10,30 +10,24 @@
           <router-link :to="`/cars/`">
             <div class="cat-panel ">
               <h1 class="category">CARS</h1>
-              <img src="../assets/images/thumbnail/040 Resized.jpg">
+              <img src="../assets/images/thumbnail/005 Resized.jpg">
             </div>
           </router-link>
-          <!-- <router-link :to="`/sneakers/`">
+          <router-link :to="`/sneakers/`">
             <div class="cat-panel ">
-              <h1 class="category">SNEAKERS</h1>
+              <h1 class="category">SHOES</h1>
               <img src="../assets/images/thumbnail/058 Resized.jpg">
             </div>
           </router-link>
           <router-link :to="`/portraits/`">
           <div class="cat-panel">
             <h1 class="category">PORTRAITS</h1>
-            <img src="../assets/images/thumbnail/001 Resized.jpg">
+            <img src="../assets/images/thumbnail/011 Resized.jpg">
           </div>
           </router-link>
-          <router-link :to="`/other/`">
-            <div class="cat-panel">
-              <h1 class="category">OTHER</h1>
-              <img src="../assets/images/thumbnail/001 Resized.jpg">
-            </div>
-          </router-link> -->
         </div>
         <div class="w-full text-center">
-          <h3 class="mb-2">All photos</h3>
+          <h3 class="mb-2">All Photos</h3>
           <p class="pb-2">Click to view full image.</p>
         </div>
         <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
@@ -91,9 +85,10 @@ export default {
   filter: brightness(0.75);
 }
 
+
 .gallery-panel img {
   width: 100%;
-  height: 30vh;
+  height: 45vh;
   object-fit: cover;
   padding-bottom: 2rem;
   
@@ -109,6 +104,7 @@ export default {
 @media only screen and (min-width: 750px) {
 .thumbnail:hover {
   opacity: .65;
+
 }
 
 .cat-panel:hover{
@@ -124,4 +120,5 @@ export default {
   font-size: 7rem;
 }
 }
+
 </style>

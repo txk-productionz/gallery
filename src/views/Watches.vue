@@ -34,37 +34,10 @@ export default {
 </script>
 
 <style>
-.categories {
-  margin-top: 8rem;
-}
-
-.cat-panel {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.category {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  z-index: 1;
-}
-
-
-.cat-panel img {
-  width: 100%;
-  height: 30vh;
-  object-fit: cover;
-  padding-bottom: 2rem;
-  filter: brightness(0.75);
-}
 
 .gallery-panel img {
   width: 100%;
-  height: 30vh;
+  height: 45vh;
   object-fit: cover;
   padding-bottom: 2rem;
   
@@ -87,17 +60,6 @@ export default {
   opacity: .65;
 }
 
-.cat-panel:hover{
-  opacity: 0.65;
-  -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
 }
 
-/* for da big screens yooo */
-@media only screen and (min-width: 1175px) {
-.category{
-  font-size: 7rem;
-}
-}
 </style>

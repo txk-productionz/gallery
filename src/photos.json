@@ -1,5 +1,45 @@
 [
     {
+        "id": 43,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 6, 2020",
+        "filename": "P030.jpg",
+        "thumbnail": "P030 Resized.jpg",
+        "post": "44"
+    },
+    {
+        "id": 42,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 6, 2020",
+        "filename": "P027.jpg",
+        "thumbnail": "P027 Resized.jpg",
+        "post": "43"
+    },
+    {
+        "id": 41,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 6, 2020",
+        "filename": "P020.jpg",
+        "thumbnail": "P020 Resized.jpg",
+        "post": "42"
+    },
+    {
+        "id": 40,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 6, 2020",
+        "filename": "P016.jpg",
+        "thumbnail": "P016 Resized.jpg",
+        "post": "41"
+    },
+    {
+        "id": 39,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 6, 2020",
+        "filename": "P011.jpg",
+        "thumbnail": "P011 Resized.jpg",
+        "post": "40"
+    },
+    {
         "id": 38,
         "caption": "Art is to be free. Design is to fix.",
         "location": "Hartford, Connecticut",
@@ -166,7 +206,7 @@
     },
     {
         "id": 23,
-        "caption": "Cheers.",
+        "caption": "Everything I touch turns to gold.",
         "location": "Hartford, Connecticut",
         "date": "June 13, 2020",
         "products": "Orient 'President' EV0J002C",

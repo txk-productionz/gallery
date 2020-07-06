@@ -16,7 +16,7 @@
 <script>
 import cars from '@/cars.json';
 export default {
-  name: 'Gallery',
+  name: 'Car Gallery',
   data() {
     return {
       cars,
@@ -64,7 +64,7 @@ export default {
 
 .gallery-panel img {
   width: 100%;
-  height: 30vh;
+  height: 45vh;
   object-fit: cover;
   padding-bottom: 2rem;
   

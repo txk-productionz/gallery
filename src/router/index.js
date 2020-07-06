@@ -35,6 +35,26 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/Car.vue')
   },
   {
+    path: '/sneakers',
+    name: 'sneakers',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Sneakers.vue')
+  },
+  {
+    path: '/sneakers/sneaker/:id',
+    name: 'Sneaker',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Sneaker.vue')
+  },
+  {
+    path: '/Portraits',
+    name: 'portraits',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Portraits.vue')
+  },
+  {
+    path: '/portraits/portrait/:id',
+    name: 'Portrait',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Portrait.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
@@ -49,7 +69,19 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) {
+      return savedPosition;
+    } else if (to.hash) {
+      return {
+        selector: to.hash
+      };
+    } else {
+      return { x: 0, y: 0};
+    }
+
+  }
 })
 
 export default router

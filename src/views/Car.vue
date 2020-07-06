@@ -5,7 +5,7 @@
 import Car from '@/components/Car.vue';
 
 export default {
-  name: 'car',
+  name: 'Car View',
   components: {
     Car,
   },

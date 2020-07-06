@@ -27,7 +27,7 @@
 import watches from '@/watches.json';
 import VLazyImage from "v-lazy-image";
 export default {
-  name: 'Watch',
+  name: 'Watch Lightbox',
   data() {
     return {
       watches,

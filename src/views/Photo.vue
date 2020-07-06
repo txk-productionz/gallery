@@ -5,7 +5,7 @@
 import Photo from '@/components/Photo.vue';
 
 export default {
-  name: 'photo',
+  name: 'Photo View',
   components: {
     Photo,
   },
