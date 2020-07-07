@@ -1,10 +1,14 @@
 <template>
     <div class="res-width view">
-        <div class="categories border-bottom mb-3">
+        <div class="categories border-bottom pb-5 mb-2">
+          <a href="#down" class="cat-panel">
+              <h1 class="category">ALL PHOTOS</h1>
+              <img src="../assets/images/thumbnail/P016 Resized.jpg">
+          </a>
           <router-link :to="`/watches/`">
             <div class="cat-panel">
               <h1 class="category">WATCHES</h1>
-              <img src="../assets/images/thumbnail/001 Resized.jpg">
+              <img src="../assets/images/thumbnail/060 Resized.jpg">
             </div>
           </router-link>
           <router-link :to="`/cars/`">
@@ -22,11 +26,11 @@
           <router-link :to="`/portraits/`">
           <div class="cat-panel">
             <h1 class="category">PORTRAITS</h1>
-            <img src="../assets/images/thumbnail/011 Resized.jpg">
+            <img src="../assets/images/thumbnail/P027 Resized.jpg">
           </div>
           </router-link>
         </div>
-        <div class="w-full text-center mb-2">
+        <div id="down" class="w-full text-center mb-2">
           <h1 class="mb-2 header">ALL PHOTOS</h1>
           <p class="mb-1">Click to view full image.</p>
         </div>
@@ -58,6 +62,14 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
+#down {
+  padding-top: 7rem;
+}
+
 .header {
   font-weight: bold;
   color: black;
@@ -80,7 +92,8 @@ export default {
   transform: translate(-50%, -50%);
   font-weight: bold;
   z-index: 1;
-
+  width: 100%;
+  color: white;
 }
 
 

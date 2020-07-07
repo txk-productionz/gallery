@@ -2,7 +2,7 @@
     <div class="res-width view">
       <div class="w-full text-center mb-2">  
         <p class="exitbtn mr-auto mb-3 pt-2" @click.self="back">&#8249;&#8249; Back to Gallery &#8250;&#8250;</p>
-        <h3 class="mb-2 header">SNEAKERS</h3>
+        <h3 class="mb-2 header">SHOES</h3>
         <p class="mb-1">Everything from Yeezys to Oxfords.</p>
         <p class="mb-1">Click to view full image.</p>        </div>
         <div class="gallery-panel" v-for="sneaker in sneakers" :key="sneaker.id">
