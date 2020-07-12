@@ -1,5 +1,27 @@
 [
     {
+        "id": 46,
+        "caption": "It doesn't tell time, it tells history.",
+        "location": "Hartford, Connecticut",
+        "date": "July 11, 2020",
+        "products": "Rolex Submariner Ref. 16610",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "062.jpg",
+        "thumbnail": "062 Resized.jpg",
+        "post": "47"
+    },
+    {
+        "id": 45,
+        "caption": "The first of its kind, the best of its kind.",
+        "location": "Hartford, Connecticut",
+        "date": "July 10, 2020",
+        "products": "Rolex Datejust Ref. 62XX",
+        "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
+        "filename": "061.jpg",
+        "thumbnail": "061 Resized.jpg",
+        "post": "46"
+    },
+    {
         "id": 44,
         "caption": "If you were looking for lost empires here tomorrow you'd wear a Rolex.",
         "location": "Hartford, Connecticut",
