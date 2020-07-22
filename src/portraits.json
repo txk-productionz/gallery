@@ -1,24 +1,8 @@
 [
     {
-        "id": 6,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P030.jpg",
-        "thumbnail": "P030 Resized.jpg",
-        "post": "7"
-    },
-    {
-        "id": 5,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P027.jpg",
-        "thumbnail": "P027 Resized.jpg",
-        "post": "6"
-    },
-    {
         "id": 4,
         "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
+        "date": "July 23, 2020",
         "filename": "P020.jpg",
         "thumbnail": "P020 Resized.jpg",
         "post": "5"
@@ -26,17 +10,17 @@
     {
         "id": 3,
         "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P016.jpg",
-        "thumbnail": "P016 Resized.jpg",
+        "date": "July 22, 2020",
+        "filename": "P018.jpg",
+        "thumbnail": "P018 Resized.jpg",
         "post": "4"
     },
     {
         "id": 2,
         "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P011.jpg",
-        "thumbnail": "P011 Resized.jpg",
+        "date": "July 21, 2020",
+        "filename": "P016.jpg",
+        "thumbnail": "P016 Resized.jpg",
         "post": "3"
     },
     {

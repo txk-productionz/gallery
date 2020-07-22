@@ -50,14 +50,14 @@ export default {
     },
     prevLightbox() {
         var nextid=this.photo.id+1
-        if (this.photo.id < 11) {    //<---Number should be the final id
+        if (this.photo.id < 10) {    //<---Number should be the final id
             this.$router.push('/sneakers/sneaker/' + nextid)
         } 
     },
     nextLightbox() {
         var previd=this.photo.id-1
         if (this.photo.id > 0) {
-            this.$router.push('/watches/watch/' + previd)
+            this.$router.push('/sneakers/sneaker/' + previd)
         } 
     }
   },

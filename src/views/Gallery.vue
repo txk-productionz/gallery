@@ -26,7 +26,7 @@
           <router-link :to="`/portraits/`">
           <div class="cat-panel">
             <h1 class="category">PORTRAITS</h1>
-            <img src="../assets/images/thumbnail/P027 Resized.jpg">
+            <img src="../assets/images/thumbnail/P018 Resized.jpg">
           </div>
           </router-link>
         </div>

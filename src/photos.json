@@ -1,6 +1,61 @@
 [
     {
+        "id": 47,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 23, 2020",
+        "filename": "P020.jpg",
+        "thumbnail": "P020 Resized.jpg",
+        "post": "48"
+    },
+    {
         "id": 46,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 22, 2020",
+        "filename": "P018.jpg",
+        "thumbnail": "P018 Resized.jpg",
+        "post": "47"
+    },
+    {
+        "id": 45,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 21, 2020",
+        "filename": "P016.jpg",
+        "thumbnail": "P016 Resized.jpg",
+        "post": "46"
+    },
+    {
+        "id": 44,
+        "caption": "No strings attached.",
+        "location": "Hartford, Connecticut",
+        "date": "July 20, 2020",
+        "products": "Nike HyperAdapt 1.0",
+        "credit": "This sneaker is courtesy of a friend of TXK Productionz.",
+        "filename": "065.jpg",
+        "thumbnail": "065 Resized.jpg",
+        "post": "45"
+    },
+    {
+        "id": 43,
+        "caption": "Game over.",
+        "location": "Hartford, Connecticut",
+        "date": "July 17, 2020",
+        "products": "Sony PlayStation 2",
+        "filename": "064.jpg",
+        "thumbnail": "064 Resized.jpg",
+        "post": "44"
+    },
+    {
+        "id": 42,
+        "caption": "Where words fail, music speaks.",
+        "location": "Hartford, Connecticut",
+        "date": "July 14, 2020",
+        "products": "Audio-Technica ATH-M50",
+        "filename": "063.jpg",
+        "thumbnail": "063 Resized.jpg",
+        "post": "43"
+    },
+    {
+        "id": 41,
         "caption": "It doesn't tell time, it tells history.",
         "location": "Hartford, Connecticut",
         "date": "July 11, 2020",
@@ -8,10 +63,10 @@
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "062.jpg",
         "thumbnail": "062 Resized.jpg",
-        "post": "47"
+        "post": "42"
     },
     {
-        "id": 45,
+        "id": 40,
         "caption": "The first of its kind, the best of its kind.",
         "location": "Hartford, Connecticut",
         "date": "July 10, 2020",
@@ -19,10 +74,10 @@
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "061.jpg",
         "thumbnail": "061 Resized.jpg",
-        "post": "46"
+        "post": "41"
     },
     {
-        "id": 44,
+        "id": 39,
         "caption": "If you were looking for lost empires here tomorrow you'd wear a Rolex.",
         "location": "Hartford, Connecticut",
         "date": "July 7, 2020",
@@ -30,46 +85,6 @@
         "credit": "This watch is a courtesy of our sponsor, a private watch collector.",
         "filename": "060.jpg",
         "thumbnail": "060 Resized.jpg",
-        "post": "45"
-    },
-    {
-        "id": 43,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P030.jpg",
-        "thumbnail": "P030 Resized.jpg",
-        "post": "44"
-    },
-    {
-        "id": 42,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P027.jpg",
-        "thumbnail": "P027 Resized.jpg",
-        "post": "43"
-    },
-    {
-        "id": 41,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P020.jpg",
-        "thumbnail": "P020 Resized.jpg",
-        "post": "42"
-    },
-    {
-        "id": 40,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P016.jpg",
-        "thumbnail": "P016 Resized.jpg",
-        "post": "41"
-    },
-    {
-        "id": 39,
-        "location": "Blue Back Square, West Hartford, Connecticut",
-        "date": "July 6, 2020",
-        "filename": "P011.jpg",
-        "thumbnail": "P011 Resized.jpg",
         "post": "40"
     },
     {
