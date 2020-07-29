@@ -1,5 +1,29 @@
 [
     {
+        "id": 7,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 29, 2020",
+        "filename": "P030.jpg",
+        "thumbnail": "P030 Resized.jpg",
+        "post": "8"
+    },
+    {
+        "id": 6,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 28, 2020",
+        "filename": "P019.jpg",
+        "thumbnail": "P019 Resized.jpg",
+        "post": "7"
+    },
+    {
+        "id": 5,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 27, 2020",
+        "filename": "P027.jpg",
+        "thumbnail": "P027 Resized.jpg",
+        "post": "6"
+    },
+    {
         "id": 4,
         "location": "Blue Back Square, West Hartford, Connecticut",
         "date": "July 23, 2020",
