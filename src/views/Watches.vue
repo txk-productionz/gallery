@@ -3,7 +3,7 @@
         <div class="w-full text-center mb-2">
           <p class="exitbtn mb-3 pt-2" @click.self="back">&#8249;&#8249; Back to Gallery &#8250;&#8250;</p>
           <h3 class="mb-2 header">WATCHES</h3>
-          <p class="mb-1">Rolex, Omega, Seiko, and more.</p>
+          <p class="mb-1">Ice cold wrist.</p>
           <p class="mb-1">Click to view full image.</p>
         </div>
         <div class="gallery-panel" v-for="watch in watches" :key="watch.id">
