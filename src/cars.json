@@ -1,5 +1,38 @@
 [
     {
+        "id": 17,
+        "caption": "Takumi delivering tofu.",
+        "location": "Innovative Restorations Inc, Wallingford, CT",
+        "date": "August 14, 2020",
+        "products": "Toyota AE86",
+        "credit": "Owner: Contact us | Event: @modified.machines | Venue: @innovativerestorations",
+        "filename": "071.jpg",
+        "thumbnail": "071 Resized.jpg",
+        "post": "18"
+    },
+    {
+        "id": 16,
+        "caption": "Anything else is just transportation.",
+        "location": "Innovative Restorations Inc, Wallingford, CT",
+        "date": "August 12, 2020",
+        "products": "Toyota Supra",
+        "credit": "Owner: @tomi.a90 | Event: @modified.machines | Venue: @innovativerestorations",
+        "filename": "069.jpg",
+        "thumbnail": "069 Resized.jpg",
+        "post": "17"
+    },
+    {
+        "id": 15,
+        "caption": "Doesn't need 5 liters to kick your ass.",
+        "location": "Innovative Restorations Inc, Wallingford, CT",
+        "date": "August 10, 2020",
+        "products": "Mazda RX-7",
+        "credit": "Owner: Contact us | Event: @modified.machines | Venue: @innovativerestorations",
+        "filename": "066.jpg",
+        "thumbnail": "066 Resized.jpg",
+        "post": "16"
+    },
+    {
         "id": 14,
         "caption": "The body is a temporary vehicle. Without the soul, the body is like a car without a driver.",
         "location": "Hartford, Connecticut",
