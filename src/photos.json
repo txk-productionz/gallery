@@ -1,5 +1,29 @@
 [
     {
+        "id": 56,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 20, 2020",
+        "filename": "P074.jpg",
+        "thumbnail": "P074 Resized.jpg",
+        "post": "57"
+    },
+    {
+        "id": 55,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 19, 2020",
+        "filename": "P075.jpg",
+        "thumbnail": "P075 Resized.jpg",
+        "post": "56"
+    },
+    {
+        "id": 54,
+        "location": "Blue Back Square, West Hartford, Connecticut",
+        "date": "July 18, 2020",
+        "filename": "P076.jpg",
+        "thumbnail": "P076 Resized.jpg",
+        "post": "55"
+    },
+    {
         "id": 53,
         "caption": "Takumi delivering tofu.",
         "location": "Innovative Restorations Inc, Wallingford, CT",
