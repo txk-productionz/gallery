@@ -1,9 +1,20 @@
 [
     {
+        "id": 19,
+        "caption": "There isn't any monster under your bed. It's in the garage!",
+        "location": "Innovative Restorations Inc, Wallingford, CT",
+        "date": "August 28, 2020",
+        "products": "Toyota Supra",
+        "credit": "Owner: contact us | Event: @modified.machines | Venue: @innovativerestorations",
+        "filename": "072.jpg",
+        "thumbnail": "072 Resized.jpg",
+        "post": "20"
+    },
+    {
         "id": 18,
         "caption": "Is that a Supra???",
         "location": "Innovative Restorations Inc, Wallingford, CT",
-        "date": "August 16, 2020",
+        "date": "August 26, 2020",
         "products": "Toyota Supra",
         "credit": "Owner: @tomi.a90 | Event: @modified.machines | Venue: @innovativerestorations",
         "filename": "067.jpg",
