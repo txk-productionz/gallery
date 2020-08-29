@@ -37,7 +37,7 @@
         <div class="w-full">
           <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
               <router-link :to="`/photo/${photo.id}`">
-                  <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
+                <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
               </router-link>
           </div>
         </div>
