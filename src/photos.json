@@ -1,5 +1,29 @@
 [
     {
+        "id": 62,
+        "location": "Heaven, Hartford, Connecticut",
+        "date": "August 31, 2020",
+        "filename": "P058.jpg",
+        "thumbnail": "P058 Resized.jpg",
+        "post": "63"
+    },
+    {
+        "id": 61,
+        "location": "Heaven, Hartford, Connecticut",
+        "date": "August 31, 2020",
+        "filename": "P069.jpg",
+        "thumbnail": "P069 Resized.jpg",
+        "post": "62"
+    },
+    {
+        "id": 60,
+        "location": "Heaven, Hartford, Connecticut",
+        "date": "August 31, 2020",
+        "filename": "P070.jpg",
+        "thumbnail": "P070 Resized.jpg",
+        "post": "61"
+    },
+    {
         "id": 59,
         "caption": "The only thing you'll see are these taillights.",
         "location": "Innovative Restorations Inc, Wallingford, CT",

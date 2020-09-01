@@ -36,9 +36,11 @@
         </div>
         <div class="w-full">
           <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
+            <div class="aspect-ratio">
               <router-link :to="`/photo/${photo.id}`">
                 <img :src="thumbUrl(photo.thumbnail)" class="thumbnail">
               </router-link>
+            </div>
           </div>
         </div>
     </div>
@@ -111,9 +113,21 @@ html {
   margin: 1.66%;
 }
 
-.gallery-panel img {
+.aspect-ratio {
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+  overflow: hidden;
+}
+
+.aspect-ratio img {
   width:100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .thumbnail {

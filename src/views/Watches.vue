@@ -7,9 +7,11 @@
           <p class="mb-1">Click to view full image.</p>
         </div>
         <div class="gallery-panel" v-for="watch in watches" :key="watch.id">
+          <div class="aspect-ratio">
             <router-link :to="`/watches/watch/${watch.id}`">
                 <img :src="thumbUrl(watch.thumbnail)" class="thumbnail">
             </router-link>
+          </div>
         </div>
 
     </div>
@@ -48,9 +50,21 @@ export default {
   margin: 1.66%;
 }
 
-.gallery-panel img {
+.aspect-ratio {
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+  overflow: hidden;
+}
+
+.aspect-ratio img {
   width:100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .thumbnail {
